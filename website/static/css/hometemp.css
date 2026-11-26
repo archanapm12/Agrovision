@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+body {
+    margin: 0;
+    background-color: #fbf9ef;
+    font-family: 'Poppins', sans-serif; /* Changed font-family to Poppins */
+    background-image: url("../images/h26.jpg");
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+.navbar {
+    background-color: #eeefe7;
+    overflow: hidden;
+    background-image: url("../images/h26.jpg");
+
+    /* Same background image as body */
+    background-size: cover;
+}
+
+.navbar h2 {
+    float: left;
+    margin: 0;
+    font-size: 2.5em;
+    padding: 10px;
+    position: absolute;
+    left: 50%; 
+    transform: translate(-50%);
+}
+
+.navbar ul {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    float: left;
+}
+
+.navbar ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.header-container {
+    /*position: relative;
+    text-align: left;
+    /* Align the header to the right */
+    /*padding: 150px 20px;
+    /* Adjust padding to add space from the right side */
+    /*box-sizing: border-box;
+    /* Ensure padding is included in the width */
+    display: flex;
+    flex-direction: column;
+    align-items: start ;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.header {
+    animation: jump 0.5s ease;
+}
+
+.header h1 {
+    font-size: 3.5em;
+    color: #f0f0f0;
+    font-weight: 700;
+}
+.header h2 {
+    font-size: 35px;
+    color: #f0f0f0;
+}
+.header p {
+    font-size: 18px;
+    color: #3f624a;
+}
+
+.button {
+    display: inline-block;
+    background-color: #516834;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #95890f;
+}
+
+@keyframes jump {
+    0% {
+        transform: translateY(10px);
+        /* Initial position */
+    }
+
+    50% {
+        transform: translateY(-20px);
+        /* Jumping position */
+    }
+
+    100% {
+        transform: translateY(0);
+        /* Return to original position */
+    }
+}
+span{
+    color: #1f4b3fcb;
+}
